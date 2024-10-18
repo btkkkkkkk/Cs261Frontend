@@ -14,10 +14,16 @@
             <input type="text" id="username" name="username" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            <button type="button" onclick="submitLogin()">Login</button>
-            <button type="button" onclick="call_REST_API_Hello()">Hello</button>
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="" disabled selected>Select your role</option>
+                <option value="student">Student</option>
+                <option value="lecturer">Lecturer</option>
+                </select>
+            <button type="button" id="loginButton" onclick="submitLogin()">Login</button>
         </form>
         <p id="message"></p>
+        <div id="accountInfo" style="display: none"></div>
     </div>
     <script src="js/script.js"></script>
 </body>
