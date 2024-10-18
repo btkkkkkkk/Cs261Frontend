@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #A2805D;
 }
 
 .login-container {
     width: 300px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #DAC6A3;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -22,23 +22,24 @@ label {
     margin: 10px 0 5px;
 }
 
-input {
+input ,select {
     width: 100%;
-    padding: 8px;
+    padding: 8px 0px;
     margin-bottom: 10px;
 }
 
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #646C51;
+    margin-top: 40px;
     border: none;
     color: #fff;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #323423;
 }
 
 #message {
